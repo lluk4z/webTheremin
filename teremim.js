@@ -126,7 +126,7 @@ $( function() {
     oscillator.frequency.value = xValue;
 	});
 
-	$('body').on('swiped', function(e) {
+	$('body').on('touchmove', function(e) {
     // Pega o movimento do mouse nos eixos X e Y!
     var xValue = e.clientX;
     var yValue = e.clientY;
