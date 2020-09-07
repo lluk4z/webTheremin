@@ -124,6 +124,25 @@ $( function() {
 
     // define a frequência para a posição x do mouse!
     oscillator.frequency.value = xValue;
-  });
+	});
+
+	$('body').on('touchmove', function(e) {
+    // Pega o movimento do mouse nos eixos X e Y!
+    var xValue = e.clientX;
+    var yValue = e.clientY;
+
+    // dêem uma olhada nos valores ao movimentar o mouse
+    x.text(xValue);
+    y.text(yValue);
+
+    // se não temos um oscilador funcionando nesse momento, então, 
+    // não temos nada mais a fazer aqui, apenas retornar
+    if (!oscillator) {
+      return;
+    }
+
+    // define a frequência para a posição x do mouse!
+    oscillator.frequency.value = xValue;
+	});
 
 });
