@@ -1,0 +1,71 @@
+body {
+	margin-top: 0px;
+	padding: 0px;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: 'Heebo', sans-serif;
+	color: #305DF2;
+	background-color: whitesmoke;
+}
+
+h2 {
+	margin: auto;
+}
+
+
+
+.header {
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+
+button{
+	text-decoration:none;
+	border: none;
+	font-family: 'Heebo', sans-serif;
+	color: #305DF2;
+}
+
+button:hover {
+	background-color:#5555;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+#sine {
+	background-image: url("sine.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
+
+#triangle {
+	background-image: url("triangle.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
+
+#sawtooth {
+	background-image: url("sawtooth.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
+
+#square {
+	background-image: url("square.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}

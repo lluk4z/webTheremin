@@ -1,0 +1,63 @@
+<html>
+    <head>
+
+				<meta charset="UTF-8"/>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+				<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+
+				<meta name="description" content="Web Theremin a on-line theremin"/>
+
+				<meta name="robots" content="theremin, music, web audio api" />
+
+				<meta name="googlebot" content="theremin, music, web audio api" />
+
+				<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
+
+				<link rel="stylesheet" href="./style.css"/>
+
+        <title>Theremin</title>
+        
+        <link rel="stylesheet/less" href="css/site.less">
+        
+    </head>
+    <body>
+
+				<header class="header">
+        	<h2>THEREMIN</h2>
+				
+				</header>
+
+				<section class="flex">
+        <div class="buttons">
+            <button id="liga">O N</button>
+            <button id="desliga">O F F</button>
+
+						<button id="sine" value = "sine"></button>
+						<button id="triangle" value = "triangle"></button>
+						<button id="sawtooth" value = "sawtooth"></button>
+						<button id="square" value = "square"></button>
+
+						
+						<button id="delay" value = "delay">D E L A Y</button>
+						
+						
+						<button id="reverb">R E V E R B</button>
+						
+						
+						<button id="gain">G A I N</button>
+						
+
+						<button id="juice">J U I C E</button>
+						
+
+						
+        </div>
+        <span id="x">0</span>
+        <span id="y">0</span>
+				<section>
+
+		<script src="dependencies/jquery.min.js"></script>
+    <script src="teremim.js"></script>
+		<script src="dependencies/less.min.js"></script>
+    </body>
+</html>
