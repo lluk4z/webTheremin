@@ -23,17 +23,17 @@ h2 {
 	padding: 20px;
 }
 
-button{
+.btn{
 	text-decoration:none;
 	border: none;
 	font-family: 'Heebo', sans-serif;
 	color: #305DF2;
 }
 
-button:hover {
+.btn:hover {
 	background-color:#5555;
 }
-button:active {
+.btn:active {
 	position:relative;
 	top:1px;
 }
