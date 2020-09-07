@@ -39,7 +39,7 @@ h2 {
 }
 
 #sine {
-	background-image: url("sine.png");
+	background-image: url("sine.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 40px;
@@ -47,7 +47,7 @@ h2 {
 }
 
 #triangle {
-	background-image: url("triangle.png");
+	background-image: url("triangle.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 40px;
@@ -55,7 +55,7 @@ h2 {
 }
 
 #sawtooth {
-	background-image: url("sawtooth.png");
+	background-image: url("sawtooth.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 40px;
@@ -63,7 +63,7 @@ h2 {
 }
 
 #square {
-	background-image: url("square.png");
+	background-image: url("square.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 40px;
