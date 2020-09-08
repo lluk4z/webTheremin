@@ -120,7 +120,20 @@ $( function() {
     // não temos nada mais a fazer aqui, apenas retornar
     if (!oscillator) {
       return;
-    }
+		}
+
+		function getRandomInt(min, max) {
+			return Math.floor(Math.random() * (max - min + 1)) + min;
+	}
+		
+		document.getElementById("random").addEventListener('click', (e)=>{
+			
+			i = 500;
+			while(i > 0){
+			oscillator.frequency.value = xValue + getRandomInt(100,1000);
+			i--;
+			}
+		});
 
     // define a frequência para a posição x do mouse!
     oscillator.frequency.value = xValue;
