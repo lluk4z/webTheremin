@@ -46,6 +46,22 @@ h2 {
 	height: 40px;
 }
 
+#sine_2 {
+	background-image: url("sine.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
+
+#sine_3 {
+	background-image: url("sine.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
+
 #triangle {
 	background-image: url("triangle.svg");
 	background-repeat: no-repeat;
@@ -54,7 +70,40 @@ h2 {
 	height: 40px;
 }
 
+#triangle_2 {
+	background-image: url("triangle.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
+
+#triangle_3 {
+	background-image: url("triangle.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
+
+
 #sawtooth {
+	background-image: url("sawtooth.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
+
+#sawtooth_2 {
+	background-image: url("sawtooth.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
+
+#sawtooth_3 {
 	background-image: url("sawtooth.svg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -70,3 +119,18 @@ h2 {
 	height: 40px;
 }
 
+#square_2 {
+	background-image: url("square.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
+
+#square_3 {
+	background-image: url("square.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 40px;
+	height: 40px;
+}
